@@ -154,6 +154,8 @@ nav a:focus{
     padding: 16px 32px;
     border-radius: 4px;
     margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .attention-button:hover,
@@ -221,7 +223,6 @@ nav a:focus{
 
 .team-container {
     background: #f4f4fd;
-    padding: 120px 156px;
 }
 
 .title-under-img{
@@ -265,7 +266,6 @@ nav a:focus{
 }
         
 .portfolio-container{
-    padding: 120px 156px;
     flex-shrink: 1;
 }
 .portfolio-container .title-second{
@@ -307,10 +307,7 @@ nav a:focus{
 
                     /* footer-section */
 .footer-container {
-    padding-left: 156px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 1020px;
+    
 }
 
 .footer-container .logo-ch{
