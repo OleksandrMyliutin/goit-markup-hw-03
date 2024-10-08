@@ -180,7 +180,7 @@ nav a:focus{
 }
 
 .list-par-first{
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4)
 }
 
 .hiden-pattern{
@@ -255,6 +255,7 @@ nav a:focus{
     text-align: center;
     border-top-right-radius: 4px;
     background: #fff;
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -269,8 +270,8 @@ nav a:focus{
 }
         
 .portfolio-container{
-    border: 1px solid #e7e9fc;
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .portfolio-container .title-second{
     margin-bottom: 72px;
@@ -286,7 +287,7 @@ nav a:focus{
 }
 
 .item{
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .image-list{
