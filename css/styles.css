@@ -26,6 +26,11 @@ img{
     padding-left: 15px; 
     padding-right: 15px;
 }
+
+.container-fix{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
                   /* end of general styles */
 
                   /* header */
@@ -107,9 +112,6 @@ nav a:focus{
 
                     /* end of header */
 
-.main-page{
-    flex-grow: 1;
-}
 
 
                    /* pay-attention section */
@@ -167,16 +169,10 @@ nav a:focus{
 
                     /* advantages section */
 
-
-.advantages {
-    padding-top: 120рх;
-    padding-bottom: 120рх;
+ .container-fix {
+    padding-bottom: 120px;
+    padding-top: 120px;
 } 
-/* ??? */
-.advantages-container{
-    /* padding: 120px 156px; */
-    
-}
 
 .list-par{
     display: flex;
@@ -216,13 +212,15 @@ nav a:focus{
                    /*end of advantages section */
 
                    /* team-section */
-.team {
-    padding-top: 120рх;
-    padding-bottom: 120рх;
-}
+
 
 .team-container {
     background: #f4f4fd;
+}
+
+.team-container .container {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .title-under-img{
@@ -306,8 +304,8 @@ nav a:focus{
                     /* end of portfolio-section */
 
                     /* footer-section */
-.footer-container {
-    
+.footer-page {
+    padding: 100px 0;
 }
 
 .footer-container .logo-ch{
