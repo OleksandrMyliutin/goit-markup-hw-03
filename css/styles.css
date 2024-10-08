@@ -21,13 +21,17 @@ img{
     max-width: 100%;
 }
 .container{
-    max-width: auto;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
                   /* end of general styles */
 
                   /* header */
+.body-header-style{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     display: flex;
     gap: 332px;
@@ -38,19 +42,17 @@ img{
 .nav-container {
     display: flex;
     gap: 76px;
-    
+    align-items: center;
 } 
-.list-menu-container .list-menu{
+.list-menu{
     display: flex;
     gap: 40px;
 }
-.address-container .address-menu{
+.address-menu{
     display: flex;
     gap: 40px;
 }
-
-
-                  
+              
 .logo-ch{
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -59,6 +61,7 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .nav-list{
