@@ -179,6 +179,10 @@ nav a:focus{
     gap: 24px;
 }
 
+.list-par-first{
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .hiden-pattern{
     position: absolute;
     width: 1px;
@@ -194,6 +198,7 @@ nav a:focus{
 }
 
 .title-third{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -223,10 +228,11 @@ nav a:focus{
 }
 
 .title-under-img{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .title-second{
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -247,7 +253,7 @@ nav a:focus{
 .point-team{
     background: #fff;
     text-align: center;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-top-right-radius: 4px;
     background: #fff;
 }
 
@@ -263,7 +269,8 @@ nav a:focus{
 }
         
 .portfolio-container{
-    flex-shrink: 1;
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
 }
 .portfolio-container .title-second{
     margin-bottom: 72px;
@@ -280,7 +287,6 @@ nav a:focus{
 
 .item{
     flex-basis: calc((100% - 48px) / 3);
-    border: 1px solid #e7e9fc;
 }
 
 .image-list{
