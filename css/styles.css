@@ -23,7 +23,8 @@ img{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px; 
+    padding-right: 15px;
 }
                   /* end of general styles */
 
@@ -34,8 +35,6 @@ img{
 
 .header-container {
     display: flex;
-    gap: 332px;
-    padding: 24px 156px;
     justify-content: space-between;
 }
 
@@ -72,6 +71,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 nav a,
@@ -90,12 +90,14 @@ nav a:focus{
 }
 
 .address-list {
+    display: block;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .address-list:hover,
