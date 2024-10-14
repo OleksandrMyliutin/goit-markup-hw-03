@@ -45,7 +45,6 @@ img{
 
 .nav-container {
     display: flex;
-    gap: 76px;
     align-items: center;
 } 
 .list-menu{
@@ -265,8 +264,8 @@ nav a:focus{
 
                     /* portfolio-section */
 .portfolio{
-    padding-top: 120рх;
-    padding-bottom: 120рх;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
         
 .portfolio-container{
